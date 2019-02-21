@@ -1,0 +1,311 @@
+###############################################################################
+#
+# IAR ELF Linker V7.40.3.8902/W32 for ARM                 07/Sep/2015  16:17:47
+# Copyright 2007-2015 IAR Systems AB.
+#
+#    Output file  =  
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Exe\Project.out
+#    Map file     =  
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\List\Project.map
+#    Command line =  
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\main.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\startup_stm32l152xc.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\stm32l152c_discovery.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\stm32l1xx_hal.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\stm32l1xx_hal_cortex.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\stm32l1xx_hal_gpio.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\stm32l1xx_hal_pwr.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\stm32l1xx_hal_pwr_ex.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\stm32l1xx_hal_rcc.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\stm32l1xx_hal_rcc_ex.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\stm32l1xx_it.o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj\system_stm32l1xx.o
+#        --redirect _Printf=_PrintfSmall --redirect _Scanf=_ScanfSmall -o
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Exe\Project.out
+#        --map
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\List\Project.map
+#        --config
+#        E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\stm32l152xc_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0803ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20007fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A1":                                     0x124
+  .intvec            ro code  0x08000000  0x124  startup_stm32l152xc.o [1]
+                            - 0x08000124  0x124
+
+"P1":                                     0xfc8
+  .text              ro code  0x08000124  0x710  stm32l1xx_hal_rcc.o [1]
+  .text              ro code  0x08000834   0x80  stm32l1xx_hal.o [1]
+  .text              ro code  0x080008b4  0x1dc  stm32l1xx_hal_gpio.o [1]
+  .text              ro code  0x08000a90   0x10  stm32l1xx_hal_pwr_ex.o [1]
+  .text              ro code  0x08000aa0   0xc4  stm32l1xx_hal_cortex.o [1]
+  .text              ro code  0x08000b64  0x20a  main.o [1]
+  .text              ro code  0x08000d70  0x10d  stm32l152c_discovery.o [1]
+  .text              ro code  0x08000e80    0x6  ABImemclr4.o [4]
+  .text              ro code  0x08000e88   0x32  ABImemset48.o [4]
+  .text              ro code  0x08000ebc   0x48  system_stm32l1xx.o [1]
+  .text              ro code  0x08000f04   0x2c  copy_init3.o [4]
+  .text              ro code  0x08000f30   0x28  data_init.o [4]
+  .iar.init_table    const    0x08000f58   0x14  - Linker created -
+  .text              ro code  0x08000f6c   0x1a  stm32l1xx_it.o [1]
+  .text              ro code  0x08000f88   0x1a  cmain.o [4]
+  .text              ro code  0x08000fa2    0x4  low_level_init.o [3]
+  .text              ro code  0x08000fa6    0x4  exit.o [3]
+  .text              ro code  0x08000fac    0xa  cexit.o [4]
+  .text              ro code  0x08000fb8   0x14  exit.o [5]
+  .text              ro code  0x08000fcc   0x10  startup_stm32l152xc.o [1]
+  .text              ro code  0x08000fdc    0xc  cstartup_M.o [4]
+  .text              ro code  0x08000fe8    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08000fec    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08000ff0    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08000ff4    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08000ff8    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08000ffc    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001000    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001004    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001008    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x0800100c    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001010    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001014    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001018    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x0800101c    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001020    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001024    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001028    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x0800102c    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001030    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001034    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001038    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x0800103c    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001040    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001044    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001048    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x0800104c    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001050    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001054    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001058    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x0800105c    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001060    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001064    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001068    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x0800106c    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001070    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001074    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001078    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x0800107c    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001080    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001084    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001088    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x0800108c    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001090    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001094    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x08001098    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x0800109c    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x080010a0    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x080010a4    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x080010a8    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x080010ac    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x080010b0    0x4  startup_stm32l152xc.o [1]
+  .text              ro code  0x080010b4    0x4  startup_stm32l152xc.o [1]
+  .rodata            const    0x080010b8    0x0  copy_init3.o [4]
+  Initializer bytes  const    0x080010b8   0x34  <for P2 s0>
+                            - 0x080010ec  0xfc8
+
+"P2":                                     0x438
+  P2 s0                       0x20000000   0x34  <Init block>
+    .data            inited   0x20000000   0x20  system_stm32l1xx.o [1]
+    .data            inited   0x20000020    0x8  stm32l152c_discovery.o [1]
+    .data            inited   0x20000028    0x4  stm32l152c_discovery.o [1]
+    .bss             inited   0x2000002c    0x4  stm32l1xx_hal.o [1]
+    .bss             inited   0x20000030    0x1  main.o [1]
+  CSTACK                      0x20000038  0x400  <Block>
+    CSTACK           uninit   0x20000038  0x400  <Block tail>
+                            - 0x20000438  0x438
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x34 (106% of destination):
+          0x080010b8  0x34
+    1 destination range, total size 0x31:
+          0x20000000  0x31
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj: [1]
+    main.o                      522        1        1
+    startup_stm32l152xc.o       516
+    stm32l152c_discovery.o      269       12       12
+    stm32l1xx_hal.o             128        4        4
+    stm32l1xx_hal_cortex.o      196
+    stm32l1xx_hal_gpio.o        476
+    stm32l1xx_hal_pwr_ex.o       16
+    stm32l1xx_hal_rcc.o       1 808
+    stm32l1xx_it.o               26
+    system_stm32l1xx.o           72       32       32
+    -------------------------------------------------
+    Total:                    4 029       49       49
+
+command line: [2]
+    -------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [4]
+    ABImemclr4.o                  6
+    ABImemset48.o                50
+    cexit.o                      10
+    cmain.o                      26
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    -------------------------------------------------
+    Total:                      188
+
+shb_l.a: [5]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         15
+    Linker created                        23    1 024
+-----------------------------------------------------
+    Grand Total:              4 260       72    1 073
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08000f58          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08000f6c          --   Gb  - Linker created -
+?main                   0x08000f89         Code  Gb  cmain.o [4]
+AHBPrescTable           0x2000000c   0x10  Data  Gb  system_stm32l1xx.o [1]
+BSP_LED_Init            0x08000d71   0x4e  Code  Gb  stm32l152c_discovery.o [1]
+BSP_LED_On              0x08000dc9   0x14  Code  Gb  stm32l152c_discovery.o [1]
+BSP_LED_Toggle          0x08000ddd   0x12  Code  Gb  stm32l152c_discovery.o [1]
+BSP_PB_Init             0x08000def   0x6a  Code  Gb  stm32l152c_discovery.o [1]
+BUTTON_IRQn             0x08000e7c    0x1  Data  Gb  stm32l152c_discovery.o [1]
+BUTTON_PIN              0x08000e78    0x2  Data  Gb  stm32l152c_discovery.o [1]
+BUTTON_PORT             0x20000028    0x4  Data  Gb  stm32l152c_discovery.o [1]
+BusFault_Handler        0x08000f73    0x2  Code  Gb  stm32l1xx_it.o [1]
+CSTACK$$Base            0x20000038          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000438          --   Gb  - Linker created -
+DebugMon_Handler        0x08000f79    0x2  Code  Gb  stm32l1xx_it.o [1]
+EXTI0_IRQHandler        0x08000f81    0x6  Code  Gb  stm32l1xx_it.o [1]
+GPIO_PIN                0x08000e74    0x4  Data  Gb  stm32l152c_discovery.o [1]
+GPIO_PORT               0x20000020    0x8  Data  Gb  stm32l152c_discovery.o [1]
+HAL_Delay               0x08000893   0x18  Code  Wk  stm32l1xx_hal.o [1]
+HAL_GPIO_EXTI_Callback  0x08000ba7    0xa  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                        0x08000a55   0x14  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_Init           0x080008b5  0x190  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin      0x08000a4d    0x8  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08000a45    0x8  Code  Gb  stm32l1xx_hal_gpio.o [1]
+HAL_GetTick             0x0800088d    0x6  Code  Wk  stm32l1xx_hal.o [1]
+HAL_IncTick             0x08000883    0xa  Code  Wk  stm32l1xx_hal.o [1]
+HAL_Init                0x08000835   0x28  Code  Gb  stm32l1xx_hal.o [1]
+HAL_InitTick            0x0800085f   0x24  Code  Wk  stm32l1xx_hal.o [1]
+HAL_MspInit             0x0800085d    0x2  Code  Wk  stm32l1xx_hal.o [1]
+HAL_NVIC_EnableIRQ      0x08000b0f    0xc  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08000ad5   0x3a  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                        0x08000abb   0x1a  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HAL_PWREx_GetVoltageRange
+                        0x08000a91    0xa  Code  Gb  stm32l1xx_hal_pwr_ex.o [1]
+HAL_RCC_ClockConfig     0x080004c3  0x18c  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08000759   0x20  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x080006fd   0x5c  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_MCOConfig       0x080006b5   0x48  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x08000125  0x35a  Code  Gb  stm32l1xx_hal_rcc.o [1]
+HAL_SYSTICK_Config      0x08000b23   0x28  Code  Gb  stm32l1xx_hal_cortex.o [1]
+HardFault_Handler       0x08000f6f    0x2  Code  Gb  stm32l1xx_it.o [1]
+MemManage_Handler       0x08000f71    0x2  Code  Gb  stm32l1xx_it.o [1]
+NMI_Handler             0x08000f6d    0x2  Code  Gb  stm32l1xx_it.o [1]
+NVIC_SetPriority        0x08000aa1   0x1a  Code  Lc  stm32l1xx_hal_cortex.o [1]
+PLLMulTable             0x20000000    0xc  Data  Gb  system_stm32l1xx.o [1]
+PendSV_Handler          0x08000f7b    0x2  Code  Gb  stm32l1xx_it.o [1]
+RCC_SetFlashLatencyFromMSIRange
+                        0x08000779   0x6e  Code  Lc  stm32l1xx_hal_rcc.o [1]
+Region$$Table$$Base     0x08000f58          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08000f6c          --   Gb  - Linker created -
+SVC_Handler             0x08000f77    0x2  Code  Gb  stm32l1xx_it.o [1]
+SwitchClock             0x20000030    0x1  Data  Gb  main.o [1]
+SwitchSystemClock       0x08000bb1   0xee  Code  Lc  main.o [1]
+SysTick_Handler         0x08000f7d    0x4  Code  Gb  stm32l1xx_it.o [1]
+SystemClock_Config      0x08000ccf   0x8a  Code  Gb  main.o [1]
+SystemCoreClock         0x2000001c    0x4  Data  Gb  system_stm32l1xx.o [1]
+SystemInit              0x08000ebd   0x38  Code  Gb  system_stm32l1xx.o [1]
+UsageFault_Handler      0x08000f75    0x2  Code  Gb  stm32l1xx_it.o [1]
+__aeabi_memclr4         0x08000e81         Code  Gb  ABImemclr4.o [4]
+__cmain                 0x08000f89         Code  Gb  cmain.o [4]
+__exit                  0x08000fb9   0x14  Code  Gb  exit.o [5]
+__iar_Memset4_word      0x08000e89         Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word      0x08000e89         Code  Gb  ABImemset48.o [4]
+__iar_copy_init3        0x08000f05   0x2c  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x08000f31   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x08000fdd         Code  Gb  cstartup_M.o [4]
+__low_level_init        0x08000fa3    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32l152xc.o [1]
+_call_main              0x08000f95         Code  Gb  cmain.o [4]
+_exit                   0x08000fad         Code  Gb  cexit.o [4]
+_main                   0x08000f9f         Code  Gb  cmain.o [4]
+aAPBAHBPrescTable       0x08000814   0x10  Data  Gb  stm32l1xx_hal_rcc.o [1]
+aPLLDivisionFactorTable
+                        0x08000824    0x4  Data  Gb  stm32l1xx_hal_rcc.o [1]
+aPLLMulFactorTable      0x08000828    0xc  Data  Gb  stm32l1xx_hal_rcc.o [1]
+exit                    0x08000fa7    0x4  Code  Gb  exit.o [3]
+main                    0x08000b65   0x42  Code  Gb  main.o [1]
+uwTick                  0x2000002c    0x4  Data  Lc  stm32l1xx_hal.o [1]
+
+
+[1] = E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\STM32L152C-Discovery\Examples\RCC\RCC_ClockConfig\EWARM\STM32L152C-Discovery\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  4 260 bytes of readonly  code memory
+     72 bytes of readonly  data memory
+  1 073 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

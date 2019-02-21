@@ -1,0 +1,15 @@
+"F:\ruanjian\IAR Systems\Embedded Workbench 7.2\arm\bin\armproc.dll" 
+
+"F:\ruanjian\IAR Systems\Embedded Workbench 7.2\arm\bin\armstlink.dll" 
+
+"E:\应用\电路图\NMDT30\数据资料\固件库\stm32cubel1\stm32cubel1\STM32Cube_FW_L1_V1.2.0\Projects\NMDT_EVAL\Examples\RTC\RTC_Tamper\EWARM\STM32L152C-Discovery\Exe\Project.out" 
+
+--plugin "F:\ruanjian\IAR Systems\Embedded Workbench 7.2\arm\bin\armbat.dll" 
+
+--device_macro "F:\ruanjian\IAR Systems\Embedded Workbench 7.2\arm\config\debugger\ST\STM32L1xx.dmac" 
+
+--flash_loader "F:\ruanjian\IAR Systems\Embedded Workbench 7.2\arm\config\flashloader\ST\FlashSTM32L15xxC.board" 
+
+
+
+

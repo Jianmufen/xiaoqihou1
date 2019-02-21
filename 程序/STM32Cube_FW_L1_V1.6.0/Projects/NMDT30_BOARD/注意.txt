@@ -1,0 +1,2 @@
+使用sd_io_low.c中的驱动时，其中已经包含了Msp部分的驱动，如spix的sck，mosi，miso引脚等，
+不需要再实现。此时HAL_SPI_MspInit() 和 HAL_SPI_MspDeInit()函数不需要实现，如果要实现，必须保证其中引脚使用和sd_io_low.c中的相同，否则spi会初始化不成功，驱动sd卡失败。

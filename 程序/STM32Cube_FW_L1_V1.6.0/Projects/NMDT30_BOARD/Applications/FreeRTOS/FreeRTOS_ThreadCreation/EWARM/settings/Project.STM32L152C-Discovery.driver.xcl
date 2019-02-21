@@ -1,0 +1,25 @@
+ -B 
+
+"--endian=little" 
+
+"--cpu=Cortex-M3" 
+
+"--fpu=None" 
+
+"-p" 
+
+"F:\ruanjian\IAR Systems\Embedded Workbench 7.2\arm\CONFIG\debugger\ST\STM32L151xCA.ddf" 
+
+"--semihosting" 
+
+"--device=STM32L151xCA" 
+
+"--drv_interface=SWD" 
+
+"--stlink_reset_strategy=0,2" 
+
+"--drv_swo_clock_setup=32000000,0,2000000" 
+
+
+
+
